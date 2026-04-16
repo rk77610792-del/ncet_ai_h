@@ -8,7 +8,7 @@ long_text = st.text_area("Enter text to summarize:", height=200)
 max_length = st.slider("Max Summary Length", 50, 300, 130)
 min_length = st.slider("Min Summary Length", 20, 100, 30)
 
-# ✅ Try to load Hugging Face summarizer
+# ✅ Try to load Hugging Face summarize
 @st.cache_resource
 def load_summarizer():
     try:
